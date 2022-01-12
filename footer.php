@@ -2,7 +2,7 @@
     
     
     
-    <footer class="row ">
+    <footer class="row">
         <div class="col-md-6 text-center" >
             <a href="https://www.facebook.com/michelosamely" target="_blank"><span class="medias"><i class="fa fa-facebook-square" aria-hidden="true"></i></span></a>
             <a href="https://twitter.com/SmailMahiddine " target="_blank"><span class="medias"><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>

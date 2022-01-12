@@ -1,153 +1,175 @@
-<?php
-include ('connexion.php');
-?>
 
 <!DOCTYPE html>
     <head>
-        <title>Check Hotel Prices </title>
+        <title> Seo For You </title>
         <meta charset="utf-4">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="style.css">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" >
         <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
-         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-    
-
-    <!-- navabar -->
+<!-- navbar -->
         <?php
         include ("navbar.php");
         ?>
-    <!-- premiére section -->
-    <main>
-        <section class="main1 py-3 text-center">
-            <div class="container py-3">
-                <div class="row py-3 ">                    
-                        <div class="col-lg-3 ">
-                            <h3 data-aos="flip-right" data-aos-duration="2000">
-                           Optimiser ses ventes
-                            </h3> 
+       
+<!-- section animation  -->
+        <section class="main1">
+                <div   id="carouseldemo" class="carousel slide" data-ride="carousel" data-interval="3000">                    
+                    <div class="carousel-inner align-items-center ">
+                        <div class="col-md-12  carousel1 carousel-item active" >
+                            <p class="text-center">
+                           Optimiser la visibilité de votre site
+                            </p> 
                         </div>
-                        <div class="col-lg-3">
-                        <h3 data-aos="flip-right" data-aos-duration="2000">                           
-                            Augmenter chiffre d'affaires
-                        </h3>
+                        <div class="col-md-12   carousel2 carousel-item">
+                            <p class="text-center">                           
+                            Faire de votre site web un réel investissement 
+                            </p>
                         </div>
-                        <div class="col-lg-3">
-                            <h3 data-aos="flip-right" data-aos-duration="2000">
-                                Avoir une longueur d'avance
-                            </h3>
+                        <div class="col-md-12  carousel3 carousel-item">
+                            <p class="text-center">
+                                Augmenter votre trafic organique
+                            </p>
                         </div>
-                        <div class="col-lg-3">
-                            <h3 data-aos="flip-right" data-aos-duration="2000">
-                                Une vieille concurrentielle en continue
-                            </h3>
+                        <div class="col-md-12   carousel4  carousel-item">
+                            <p class="text-center">
+                                Améliorer votre position sur google
+                            </p>
                         </div>
+                    </div>
+                    <a href="#carouseldemo" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria_hidden="true"></span>
+                    </a>
+                    <a href="#carouseldemo" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria_hidden="true"></span>
+                    </a>
                 </div>
-            </div>
         </section>
-        <!-- section à propos  -->
-        <section class="a_propos py-1 ms-1 ">
+<!-- section à propos  -->
+        <section class="a_propos py-1 ms-1 " class="a_propos">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 ">
-                        <img src="image2.jpg" data-aos="fade-right" data-aos-duration="2000" class="img-fluid" alt="">
+                        <img src="images/image2.jpg" data-aos="fade-right" data-aos-duration="2000" class="img-fluid" alt="">
                     </div>
-                    <div class="col-lg-7 pt-3">
+                    <div class="col-lg-7 pt-3 ">
                         <h1> A propos</h1>
-                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Check Hotel Prices est une plateforme qui vous permet d'analyser en temps réel l'offre de vos concurents directs.</p>
-                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Vous avez le choix de selectionner votre panel de concurrents </p>
-                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span>  On mets à votre diposition  des données actualisées et fiables  </p>  
-                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> C'est un outil doté de diverses fonctions vous permettant un meilleur positionnement sur marché </p> 
-                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Nous recommandons, Vous avez libre choix sur les stratégies à suivre  </p>
+                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> un diagnostic détaillé de votre site est le début d'un processus miticuleusement planifié </p>
+                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Nous nous  focalisons entiérement sur les moteurs de recherche</p>
+                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Nous créeons des backlinks  grace à un <span class= "badge badge-link"> NETLINKING</span> facile et efficient </p>
+                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Nous axons notre démarches  sur la recherche de mots clefs et un bon panel d'action</p>  
+                        <p class="font-italic font-weight-bold pt-3" data-aos="fade-left" data-aos-duration="2000"> <span><i class="fas fa-rocket fa-2x"></i></span> Nous vous garantissons une trouvabilité optimale, certes à long terme, mais pérenne !!!!  </p> 
                     </div>
                 </div>
             </div>
         </section>
-        <!-- section Prestations -->
-        <section class="services py-5
-        
-        bg-light">
+<!-- section Nos demarches -->
+        <section class="services py-5 bg-light">
             <div class="container">
-                <h1 class="text-center pb-5">Nos Prestations</h1>
-                <div class="row pb-3">
-                    <div class=col-lg-4 mb-3>
-                        <div class="card text-center py-3" data-aos="fade-left" data-aos-duration="2000">
-                            <div class="card-body">
-                                <div class="circle">
-                                    <span></span><i class="fas fa-diagnoses"></i></span>
+                <h1 class="text-center pb-5">Les 7 Piliers de notre démarche</h1>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-tools"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 1 - Fixer les objectifs à atteindre </h4>
+                                    <p> 
+                                        </p>
                                 </div>
-                                <h4 class="font-weight-bold pb-2"> Etude et analyse préalables  </h4>
-                                <p> une analyse préalable est priomrdiale pour faire un constat de votre établissement, une auto-critique est l
-                                    </p>
                             </div>
-
                         </div>
                     </div>
-                    <div class=col-lg-4 mb-3>
-                        <div class="card text-center py-3" data-aos="fade-up" data-aos-duration="2000">
-                            <div class="card-body">
-                                <div class="circle">
-                                    <span><i class="fas fa-puzzle-piece"></i></span>
+                    <div class="row  d-flex justify-content-between">
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-diagnoses"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold "> 2 - Etablir un diagnostic détaillé du site </h4>
+                                    <p> 
+                                        </p>
                                 </div>
-                                <h4 class="font-weight-bold pb-2"> Choix du panel concurrentiel  </h4>
-                                <p> 
-                                    </p>
                             </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-recycle"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 3 -Recherche de mots clefs </h4>
+                                    <p> 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="row  d-flex justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-chess"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 4 -Définir une stratégie et les actions à mener  </h4>
+                                    <p> 
+                                        </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class=col-lg-4 mb-3>
-                        <div class="card text-center py-3" data-aos="fade-right" data-aos-duration="2000">
-                            <div class="card-body">
-                                <div class="circle">
-                                    <span><i class="fas fa-chess-queen"></i></span>
+                    <div class="row  d-flex justify-content-between">
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-link"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 5 -Créer des liens fiables et réels </h4>
+                                    <p> 
+                                        </p>
                                 </div>
-                                <h4 class="font-weight-bold pb-2"> Stratégie </h4>
-                                <p> 
-                                    </p>
                             </div>
-
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-diagnoses"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 6 -Stimuler la conversion </h4>
+                                    <p> 
+                                        </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-4">
+                            <div class="card1 text-center py-1" data-aos="fade-left" data-aos-duration="2000">
+                                <div class="card-body">
+                                    <div class="circle">
+                                        <span><i class="fas fa-diagnoses"></i></span>
+                                    </div>
+                                    <h4 class="font-weight-bold"> 7 -Un point de situation mensuel  </h4>
+                                    <p> 
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
             </div>
         </section>
-        <!-- Section  Portfolio -->
-        <section class="portfolio py-3">
-            <div class="container  py-3">
-                <h1 class="text-center pb-5" data-aos="flip-right" data-aos-duration="2000">Nos méthodes</h1>
-              
-                <div class="row pt-3">
-                    <div class="col-lg-4 pt-3">
-                        <div class="item text-center">
-                            <h4>Un diagnostic global </h4>
-                        <img  src="image5.jpg" class="img-fluid pt-3" data-aos="fade-right" data-aos-duration="2000"  alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-3">
-                        <div class="item text-center">
-                            <h4>Analyse des données</h4>
-                        <img  src="image4.jpg" class="img-fluid pt-3"data-aos="flip-right" data-aos-duration="2000"   alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-4 pt-3">
-                        <div class="item text-center">
-                            <h4>Recommandations </h4>
-                        <img  src="image7.jpg" class="img-fluid pt-3"   data-aos="fade-left" data-aos-duration="2000" alt="">
-                        
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
 
-        </section>
-
-        <!-- section contact -->
-        <section>
+<!-- section contact -->
+        <section id="#contact_section">
             <div class="container text-center">
                 <h1 class="texte-center" data-aos="flip-right" data-aos-duration="2000" >Nous Contacter </h1>
                 <div class="row py-5">
@@ -166,44 +188,42 @@ include ('connexion.php');
                         </di>
                         <div class="row">
                             <div class="col-lg-9 mx-auto">
-                                <form action="">
+                                <form action="contact.php" method="post" >
                                     <div class="form-row">
                                         <div class="col-lg-6">
-                                            <input type="text" class="form-control bg-light mb-3" placeholder="name">
+                                            <label for="nom"> </label>
+                                            <input type="text" class="form-control bg-light mb-3" placeholder="nom" name="nom" required>
                                         </div>
                                         <div class="col-lg-6">
-                                            <input type="text" class="form-control bg-light mb-3" placeholder="name">
+                                            <label for="prenom"> </label>
+                                            <input type="text" class="form-control bg-light mb-3" placeholder="prenom" name="prenom" >
                                         </div>
-
                                     </div>
                                     <div class="form-row">
                                         <div class="col-lg-12">
-                                            <textarea name="" id="" class="form-control bg-light" row="30" placeholder="Message" ></textarea>
-                                            
+                                            <label for="mail"> </label>
+                                            <input type="email" class="form-control bg-light mb-3" placeholder="adresse mail" name="mail" required>
                                         </div>
                                     </div>
-                                    <button class="btn3 my-4">Submit</button>
+                                    <div class="form-row">
+                                        <div class="col-lg-12">
+                                            <label for="message"> </label>
+                                            <textarea  class="form-control bg-light" row="30"  placeholder="Message" name="contenu" required ></textarea>                                            
+                                        </div>
+                                    </div>
+                                    <button class="btn3 my-4 font-weight-bold" name="contactForm">Submit</button>
                                 </form>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-    </main>
-    <!-- footer -->
-    <footer class="row ">
-        <div class="col-md-6 text-center" >
-            <a href="https://www.facebook.com/michelosamely" target="_blank"><span class="medias"><i class="fa fa-facebook-square" aria-hidden="true"></i></span></a>
-            <a href="https://twitter.com/SmailMahiddine " target="_blank"><span class="medias"><i class="fa fa-twitter-square" aria-hidden="true"></i></span></a>
-            <a href="https://www.instagram.com/mahiddines/" target="_blank"><span class="medias"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
-        </div>
-        <div class="col-md-6 py-3 text-center font-weight-bold">
-        <p>Copy Right 2021 <span><i class="fa fa-copyright " aria-hidden="true"></i></span> By AzulWeb All Rights Reserved</p>
-        </div>
-    </footer>
+  
+<!-- footer -->
+    <?php
+    include('footer.php');
+    ?>
     </body>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
     <script src="https://cdn.jsdeliver.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>

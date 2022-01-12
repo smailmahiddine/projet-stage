@@ -1,0 +1,7 @@
+<FilesMatch "Admin.php">
+
+AuthName "cette page est  sécurisée, merci de saisir vos codes d'accès !!! "
+AuthType Basic
+AuthUserFile "C:\wamp64\www\YourSEO\.htpasswd"
+Require valid-user
+</FilesMatch>
